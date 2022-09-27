@@ -1,0 +1,33 @@
+typescript code: todos los archivos con terminación .ts
+compilation/transpilador: typescript compilation (target es3, es5, es6)
+vanilla js code: javascript .js
+
+comandos:
+
+npx tsc --init
+npx tsc
+npx tsc --watch
+
+
+types:
+
+let example = null // null
+example = 'string' // string
+example = 3.14 // number
+example = true // boolean
+example = undefined // undefined
+example = [] // array
+example = Symbol("abc") //simbol
+
+example = { // objs
+    name: 'Nicolas',
+    lastName: 'Molina'
+}
+
+example = function (a) { // funciones
+    return a
+}
+
+example:
+const productPrice: number = 12;
+
